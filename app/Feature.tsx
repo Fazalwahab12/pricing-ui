@@ -6,7 +6,7 @@ import icons3 from './icons/icons3'
 
 export default function Feature() {
   return (
-    <Box mx="300px"mt="40px" maxH={'1000'}>
+    <Box maxW={"800px"} m="auto" mt="25px" px="50px">
       <Flex direction={{ base: "column", lg: "row" }} >
       <HStack mb={'10px'}>
         <Icon as={icon1}/>
